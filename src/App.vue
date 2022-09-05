@@ -2,18 +2,21 @@
   <div id="app">
     <MyJumbotron />
     <MyService />
+    <AboutUs/>
   </div>
 </template>
 
 <script>
 import MyJumbotron from './components/MyJumbotron.vue';
 import MyService from './components/MyService.vue';
+import AboutUs from './components/AboutUs.vue';
 
 export default {
   name: 'App',
   components: {
     MyJumbotron,
-    MyService
+    MyService,
+    AboutUs
 },
 
   data(){

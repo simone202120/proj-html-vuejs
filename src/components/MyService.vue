@@ -52,6 +52,7 @@ export default {
     @import '../style/var.scss';
     main{
         background-color: white;
+        padding-bottom: 100px;
     }
     .bar{
         border-bottom:  3px solid $Mygreen;
