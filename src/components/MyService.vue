@@ -5,20 +5,18 @@
         <div class="bar"></div>
     </div>
     <div class="container flex wrap space">
-        <div v-for="(service, index) in services" :key="index" class="serviceCard flex">
-            <div class="icon"><i :class=service.icon></i></div>
-            <div class="description">
-                <h2>{{service.service}}</h2>
-                <p>{{service.description}}</p>
-            </div>
-        </div>
+        <ServiceCard v-for="(service, index) in services" :key="index" :card="service"/>
     </div>
   </main>
 </template>
 
 <script>
+    import ServiceCard from './ServiceCard.vue';
 export default {
     name:'MyService',
+    components: {
+        ServiceCard
+    },
 
     data(){
         return{
@@ -70,32 +68,5 @@ export default {
     h3{
         color:$BlueText
     }
-
-    /* Regole stile per card service */
     
-    .serviceCard{
-        width:40%;
-        margin: 30px;
-    }
-    .icon{
-        background-color:#f81e3a;
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        margin-right: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        
-    }
-    .description{
-        width: 80%;
-
-        h2{
-            margin-bottom: 20px;
-            color:$BlueText;
-        }
-    }
-   
 </style>
