@@ -1,18 +1,20 @@
 <template>
   <div id="app">
     <MyJumbotron />
+    <MyService />
   </div>
 </template>
 
 <script>
 import MyJumbotron from './components/MyJumbotron.vue';
-
+import MyService from './components/MyService.vue';
 
 export default {
   name: 'App',
   components: {
-    MyJumbotron
-  },
+    MyJumbotron,
+    MyService
+},
 
   data(){
     return{

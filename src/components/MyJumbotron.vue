@@ -46,10 +46,10 @@ export default {
      @import '../style/var.scss';
    .background{
     background-image: url('../assets/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg');
-    height: 100vh;
     background-size: 60%;
     background-repeat: no-repeat;
     background-position-x: right;
+    padding-bottom: 50px;
    
    }
    .spaceBetween{
@@ -57,7 +57,6 @@ export default {
    }
 
    li{
-    color: white;
     padding: 20px 5px;
    }
    #logo{
@@ -98,7 +97,7 @@ export default {
     a{
         color: $Mygreen;
     }
-    
+
    }
    h1{
     font-size: 95px;
