@@ -15,7 +15,7 @@
             <div  class="flexItem">
                 <p>When while lovely valley teems with vapour around meand eridan sun strikes the upper impenetrable foliage of my trees,and but a rhousand unknow</p>
             </div>
-            
+            <button><a href="#">GET STARTED</a></button>
         </div>
   </div>
 </template>
@@ -69,6 +69,16 @@ export default {
         background-color: $Mygreen;
         padding: 70px;
         align-items: center;
+        position: relative;
+
+        BUTTON{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color:$MyRed;
+            width: 160px;
+            height:40px;
+        }
    }
    .flexItem{
     width: 25%;
