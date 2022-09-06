@@ -25,18 +25,18 @@ export default {
     data(){
         return{
             projects:[
-                    {
-                        imgProject:'project1',
-                        descrizione:'Purinky Products',
-                    },
-                    {
-                        imgProject:'Project2',
-                        descrizione:'Purinky Products',
-                    },
-                    {
-                        imgProject:'project3',
-                        descrizione:'Purinky Products',
-                    }
+                        {
+                            imgProject:'project1',
+                            descrizione:'Purinky Products',
+                        },
+                        {
+                            imgProject:'Project2',
+                            descrizione:'Purinky Products',
+                        },
+                        {
+                            imgProject:'project3',
+                            descrizione:'Purinky Products',
+                        }
 
                     ]
         }
