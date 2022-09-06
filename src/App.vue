@@ -3,6 +3,7 @@
     <MyJumbotron />
     <MyService />
     <AboutUs/>
+    <MyProjects/>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import MyJumbotron from './components/MyJumbotron.vue';
 import MyService from './components/MyService.vue';
 import AboutUs from './components/AboutUs.vue';
+import MyProjects from './components/MyProjects.vue';
 
 export default {
   name: 'App',
   components: {
     MyJumbotron,
     MyService,
-    AboutUs
+    AboutUs,
+    MyProjects
 },
 
   data(){
