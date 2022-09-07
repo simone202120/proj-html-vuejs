@@ -38,8 +38,15 @@ export default {
         return{
             MenuVoices:['HOME', 'ABOUT', 'PROJECTS', 'SERVICES', 'BLOG','CONTACT']
         }
+    },
+
+    computed:{
+        copiaMenu(){
+        return this.$emit('copia',this.MenuVoices)
+        }
     }
 }
+
 </script>
 
 <style lang="scss" scoped>

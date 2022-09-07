@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <MyJumbotron />
+    <MyJumbotron @copia="caricaMenu" />
     <MyService />
     <AboutUs/>
     <MyProjects/>
     <MyTestimonials/>
     <MyBlog/>
-    <MyFooter/>
+    <MyFooter :menu="menu"/>
   </div>
 </template>
 
@@ -18,6 +18,7 @@ import MyProjects from './components/MyProjects.vue';
 import MyTestimonials from './components/MyTestimonials.vue';
 import MyBlog from './components/MyBlog.vue';
 import MyFooter from './components/MyFooter.vue';
+
 
 export default {
   name: 'App',
@@ -33,7 +34,13 @@ export default {
 
   data(){
     return{
-
+      menu:""
+    }
+  },
+  methods:{
+    caricaMenu(vociMenu){
+      this.menu=vociMenu;
+      return this.menu
     }
   }
 }
