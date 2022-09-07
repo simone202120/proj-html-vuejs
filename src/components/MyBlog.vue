@@ -67,9 +67,19 @@ export default {
         button{
         background-color:$Mygreen;
         width: 150px;
+        transition-duration: 1s;
+
+        &:hover{
+            scale: 1.2;
+            background-color: $MyRed;
+            a{
+                color: white;
+            }
+        }
             a{
                 color:$BlueText; 
                 font-weight: bold;
+                transition-duration: 1s;
             }
 
         }

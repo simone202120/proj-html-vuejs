@@ -28,14 +28,17 @@ export default {
                         {
                             imgProject:'project1',
                             descrizione:'Purinky Products',
+                            categoria:'uncategorized'
                         },
                         {
                             imgProject:'Project2',
                             descrizione:'Purinky Products',
+                            categoria:'uncategorized'
                         },
                         {
                             imgProject:'project3',
                             descrizione:'Purinky Products',
+                            categoria:'uncategorized'
                         }
 
                     ]

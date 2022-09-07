@@ -27,7 +27,18 @@ export default {
        width: 49%;
        margin-top:40px;
        position: relative;
+       transition-duration: 1s;
+
+       &:hover{
+            scale: 1.05;
+            .CorpoArticolo{
+                background-color: $Mygreen;
+                top:63%;
+            }
+       }
     }
+
+   
     img{
         width: 100%;
     }
@@ -38,6 +49,7 @@ export default {
         position: absolute;
         right: 0;
         top:60%;
+        transition-duration: 1s;
     }
     .corpo{
         color:$SmallText;

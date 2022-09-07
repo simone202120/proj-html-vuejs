@@ -45,6 +45,7 @@ export default {
         return this.$emit('copia',this.MenuVoices)
         }
     },
+
     mounted(){
         this.copiaMenu()
     }
@@ -68,6 +69,10 @@ export default {
 
    li{
     padding: 20px 5px;
+        &:hover{
+            border-top: solid 2px white;
+            font-weight: bolder;
+        }
    }
    #logo{
     height: 20px;
@@ -94,25 +99,37 @@ export default {
    button{
     background-color: $Mygreen;
     width: 150px;
+    transition-duration: 1s;
+
+        &:hover{
+            scale: 1.2;
+            background-color: $MyRed;
+            color: white;
+        }
    }
    .play{
-    width: 40px;
-    height: 40px;
-    border: 2px solid white;
-    border-radius: 50%;
-    margin-left: 20px;
-    justify-content: center;
-    align-items: center;
+        width: 40px;
+        height: 40px;
+        border: 2px solid white;
+        border-radius: 50%;
+        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 1s;
 
-    a{
-        color: $Mygreen;
-    }
+        a{
+            color: $Mygreen;
+        }
 
+        &:hover{
+            scale: 1.2;
+        }
    }
+
    h1{
-    font-size: 95px;
-    margin:20px 0 40px 0;
-    line-height: 0.8;
+        font-size: 95px;
+        margin:20px 0 40px 0;
+        line-height: 0.8;
    }
    
 </style>

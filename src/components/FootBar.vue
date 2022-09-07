@@ -68,4 +68,12 @@ export default {
         font-size: 12px;
     }
 
+    a:hover{
+        color:white;
+    }
+    li:hover{
+        scale: 1.05;
+        border-bottom: 1px solid white;
+    }
+
 </style>

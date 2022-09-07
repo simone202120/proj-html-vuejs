@@ -78,6 +78,11 @@ export default {
             background-color:$MyRed;
             width: 160px;
             height:40px;
+            transition-duration: 1s;
+
+            &:hover{
+                scale: 1.3;
+            }
         }
    }
    .flexItem{

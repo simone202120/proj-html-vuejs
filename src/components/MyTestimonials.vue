@@ -25,17 +25,20 @@ export default {
                 {
                     articolo: "When, while lovely valley teems with vapour around meand  eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknow plants are noticed by when i hear the buzz of the little.",
                     autore: "Vera Duncan",
-                    publisher: "Amazon Inc"
+                    publisher: "Amazon Inc",
+                    background: 'articolo1'
                 },
                 {
                     articolo: "When, while lovely valley teems with vapour around meand  eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknow plants are noticed by when i hear the buzz of the little.",
                     autore: "Vera Duncan",
-                    publisher: "Amazon Inc"
+                    publisher: "Amazon Inc",
+                    background: 'articolo2'
                 },
                 {
                     articolo: "When, while lovely valley teems with vapour around meand  eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknow plants are noticed by when i hear the buzz of the little.",
                     autore: "Vera Duncan",
-                    publisher: "Amazon Inc"
+                    publisher: "Amazon Inc",
+                    background: 'articolo3'
                 }
             ]
         };

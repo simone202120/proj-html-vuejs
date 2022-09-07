@@ -24,6 +24,11 @@ export default {
         width: 30%;
         padding: 30px;
 
+        &:hover{
+            background-image: url('../assets/articolo1.jpg');
+            background-size: 100% 100%;
+        }
+
         P{
             color:$SmallText;
             font-size: 14px;
