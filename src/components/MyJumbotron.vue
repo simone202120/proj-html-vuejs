@@ -40,10 +40,13 @@ export default {
         }
     },
 
-    computed:{
+    methods:{
         copiaMenu(){
         return this.$emit('copia',this.MenuVoices)
         }
+    },
+    mounted(){
+        this.copiaMenu()
     }
 }
 
